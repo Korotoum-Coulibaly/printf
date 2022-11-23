@@ -3,7 +3,7 @@
 /**
  * print_number - prints a number send to this function
  * @args: List of arguments
- * 
+ *
  * Return: number printed
  */
 int print_number(va_list args)

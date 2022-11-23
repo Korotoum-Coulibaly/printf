@@ -9,7 +9,7 @@
  * struct convert - defines structure for symbols and functions
  *
  * @sym: The operator
- * @f: The function 
+ * @f: The function
  */
 struct convert
 {

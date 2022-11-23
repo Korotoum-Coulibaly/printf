@@ -13,12 +13,12 @@ char *rev_string(char *s)
 	char tmp;
 	char *dest;
 
-	for (len = 0; s[len] != '\0'; len++){}
-
+	for (len = 0; s[len] != '\0'; len++)
+	{
+	}
 	dest = malloc(sizeof(char) * len + 1);
 	if (dest == NULL)
 		return (NULL);
-
 	_memcpy(dest, s, len);
 	for (head = 0; head < len; head++, len--)
 	{
@@ -30,7 +30,7 @@ char *rev_string(char *s)
 }
 
 /**
- * write_base - sends characters to be written 
+ * write_base - sends characters to be written
  * @str: string
  */
 void write_base(char *str)
@@ -51,7 +51,7 @@ void write_base(char *str)
 unsigned int base_len(unsigned int num, int base)
 {
 	unsigned int i;
-	
+
 	for (i = 0; num > 0; i++)
 		num = num / base;
 	return (i);
