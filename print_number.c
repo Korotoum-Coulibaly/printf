@@ -38,7 +38,7 @@ int print_number(va_list args)
 }
 
 /**
- * print_unsigned_number - prints unsigned number
+ * print_unsgined_number - prints unsigned number
  * @n: unsigned number
  *
  * Return: number printed
