@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-
 int hex_check(int, char);
+
 /**
  * print_binary - Converts a number from base 10 to binary
  * @list: arguments list
@@ -180,7 +180,7 @@ int print_heX(va_list list)
 
 /**
  * hex_check - Checks which hex function
- * @num - Number to convert in letter
+ * @num : Number to convert in letter
  * @x: hex function
  *
  * Return: ASCII value for letter
