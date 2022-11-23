@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * rev_strings - reverses a string in place
+ * rev_string - reverses a string in place
+ *
  * @s: string to reverse
  *
  * Return: pointer to a character
@@ -58,7 +59,8 @@ unsigned int base_len(unsigned int num, int base)
 }
 
 /**
- * memcpy - copy memory area
+ * _memcpy - copy memory area
+ *
  * @dest: destination
  * @src: source
  * @n: number to copy
@@ -70,7 +72,9 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
+		*(dest + i) = *(src + i);
+
+	*(dest + i) = '\0';
+
 	return (dest);
 }

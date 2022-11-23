@@ -180,6 +180,7 @@ int print_heX(va_list list)
 
 /**
  * hex_check - Checks which hex function
+ *
  * @num : Number to convert in letter
  * @x: hex function
  *
