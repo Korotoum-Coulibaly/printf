@@ -174,6 +174,7 @@ int print_heX(va_list list)
 	write_base(rev_hex);
 	free(hex_rep);
 	free(rev_hex);
+
 	return (len);
 }
 
@@ -184,7 +185,7 @@ int print_heX(va_list list)
  *
  * Return: ASCII value for letter
  */
-int hex_check(int num, whar x)
+int hex_check(int num, char x)
 {
 	char *hex = "abcdef";
 	char *Hex = "ABCDEF";
