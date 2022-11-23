@@ -43,7 +43,7 @@ int print_number(va_list args)
  *
  * Return: number printed
  */
-int print_unsgined_number(unsigned int n)
+int print_unsigned_number(unsigned int n)
 {
 	int div;
 	int len;
