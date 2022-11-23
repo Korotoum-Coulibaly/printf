@@ -38,12 +38,12 @@ int print_number(va_list args)
 }
 
 /**
- * print_unsigned_number - prints unsigned number
+ * print_unsgined_number - prints unsigned number
  * @n: unsigned number
  *
  * Return: number printed
  */
-int print_unsigned_number(unsigned int n)
+int print_unsgined_number(unsigned int n)
 {
 	int div;
 	int len;
